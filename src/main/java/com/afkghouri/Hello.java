@@ -4,6 +4,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
+//https://www.journaldev.com/9191/java-web-services-tutorial
 //https://www.youtube.com/watch?v=5jQSat1cKMo
 
 @Path("/test")
