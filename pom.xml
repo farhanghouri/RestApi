@@ -10,6 +10,11 @@
    
     
  <dependencies>
+   <!--  Json supoort -->
+ 		<!-- <dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-moxy</artifactId>
+		</dependency> -->
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>

@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:09:57:18 +0500] "GET /test/hello/world HTTP/1.1" 200 21 http-bio-8080-exec-1 41
+192.168.1.102 - - [19/Sep/2018:10:08:10 +0500] "GET / HTTP/1.1" 404 - http-bio-8080-exec-4 4
+192.168.1.102 - - [19/Sep/2018:10:08:23 +0500] "GET / HTTP/1.1" 404 - http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:10:33:37 +0500] "GET /test/hello/world HTTP/1.1" 200 21 http-bio-8080-exec-1 40
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:10:33:42 +0500] "GET /test/hello/ HTTP/1.1" 404 - http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:10:34:24 +0500] "GET /test/hello/ HTTP/1.1" 404 - http-bio-8080-exec-1 38
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:10:34:29 +0500] "GET /test/hello/world HTTP/1.1" 200 21 http-bio-8080-exec-3 6
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:10:34:35 +0500] "GET /test/ HTTP/1.1" 200 15 http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:11:12:24 +0500] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 36
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:11:14:04 +0500] "GET /afkghouri HTTP/1.1" 404 - http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:12:05:26 +0500] "GET /RestApi/student HTTP/1.1" 404 - http-bio-8080-exec-1 35
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:12:05:28 +0500] "GET /RestApi/student HTTP/1.1" 404 - http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [19/Sep/2018:12:05:30 +0500] "GET /RestApi/student HTTP/1.1" 404 - http-bio-8080-exec-4 1
